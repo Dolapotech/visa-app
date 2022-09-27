@@ -23,6 +23,7 @@ node{
     input message: 'Application ready for deployment, Please review and approve'
       }
      stage('7deployprod'){
+     sh "sleep 50"
     sh "echo 'deploy to production'  "
  deploy adapters: [tomcat8(credentialsId: 'tomcatcredential', path: '', url: 'http://35.91.235.211:8080/')], contextPath: null, war: 'target/*war'
   } 
