@@ -10,10 +10,8 @@
 </head>
 <body>
 <h1 align="center">Welcome to Landmark Technologies.</h1>
-<h2 align="center"> We are supporting the Ebay Black Friday Project.
-	Landmark Technologies is a software development company. 
-	Class26 will run from October 2, 2021.
-	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
+<h2 align="center">               CLIENT IS HAPPY - ALL TESTS PASSED
+visa-app has now been successfully deployed to Production. Good job team Champions.</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
