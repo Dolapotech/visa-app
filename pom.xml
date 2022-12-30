@@ -97,19 +97,23 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://35.91.51.227:4000/repository/honda-ci-release/</url>
+
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+
 	      <url>http://35.91.51.227:4000/repository/honda-ci-snapshot/</url>
+
+	      <url>http://54.190.64.145:8081/landmark/repository/visa-avion-snapshots/</url>
+
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>visa-app</finalName>
 		
 		<plugins>
 			<plugin>
